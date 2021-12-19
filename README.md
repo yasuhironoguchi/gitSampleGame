@@ -48,6 +48,9 @@ LUK:    30
 7: Add HP
 8: Sub HP
 9: Add MP
+10: Sub MP
+11: Add LUK
+12: Sub LUK
 exit: close program
 Input Command!
 ```

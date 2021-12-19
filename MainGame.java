@@ -61,6 +61,22 @@ public class MainGame {
 					playerData.hp = addmp.addmp(playerData.mp);
 				}
 					break;
+				case 10: {
+					SubMP submp = new SubMP();
+					playerData.mp = submp.submp(playerData.mp);
+				}
+					break;
+				case 11: {
+					AddLuk addluk = new AddLuk();
+					playerData.luk = addluk.addLuk(playerData.luk);
+				}
+					break;
+				case 12: {
+
+					SubLuk subluk = new SubLuk();
+					playerData.luk = subluk.subLuk(playerData.luk);
+				}
+					break;
 				default: {
 					System.exit(0);
 				}
@@ -83,6 +99,9 @@ public class MainGame {
 		System.out.println("7: Add HP");
 		System.out.println("8: Sub HP");
 		System.out.println("9: Add MP");
+		System.out.println("10: Sub MP");
+		System.out.println("11: Add LUK");
+		System.out.println("12: Sub LUK");
 		System.out.println("other: close program");
 		System.out.println("------------------");
 	}
