@@ -77,9 +77,6 @@ public class MainGame {
 					playerData.luk = subluk.subLuk(playerData.luk);
 				}
 					break;
-				case 13: { // add kogure
-							System.out.println("No operation");
-					}
 				default: {
 					System.exit(0);
 				}
@@ -105,7 +102,6 @@ public class MainGame {
 		System.out.println("10: Sub MP");
 		System.out.println("11: Add LUK");
 		System.out.println("12: Sub LUK");
-		System.out.println("13: No OP");
 		System.out.println("other: close program");
 		System.out.println("------------------");
 	}
